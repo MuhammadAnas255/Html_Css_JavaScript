@@ -1,0 +1,351 @@
+/* google font family laga na ke css google fonts ka link top pa laga na ha warna work nahi karya ga  */
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+/* td {
+    border: 2px solid black;
+}
+
+#pp {
+    background-color: rgb(211, 149, 69);
+} */
+
+
+
+
+/* universil margin padding hatana ke css */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.di {
+    color: blue;
+    background-color: yellow;
+}
+
+/* div ka Child tag ko asa selected karta ha */
+div>p {
+    background-color: red;
+    color: yellow;
+}
+
+/* Descendant Selector */
+/* div ka ander agar p tag ha kahi bhe hoon wo or us ko ko css dani ha to is tarha css daga  --> */
+
+div p {
+    color: green;
+    background-color: aquamarine;
+}
+
+/* a Link ka Color change karna ke css*/
+
+a:link { 
+    color: red;
+}
+
+/* a link color change karna ke css link pa click karna ka badke */
+a:visited {
+    color: black;
+}
+
+/* a link ka background color change karna ke css link pa gab click karya to ya css work kara go a:active */
+a:active {
+    background-color: yellow;
+}
+
+/* a link pa corsur rakhna ka bad ke css yani hover karna ke css */
+
+a:hover {
+    color: green;
+}
+
+/* jitna bhe div ya phir kisi ka bhe ander First <p> ho us ke color change karna ke css */
+
+p:first-child {
+    color: red;
+}
+
+
+.box {
+    background-color: aqua;
+}
+
+/* box sizing border box ke css */
+
+.box1 {
+    color: red;
+    padding: 10px;
+    margin: 25px;
+    border: 2px solid black;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.box2 {
+    color: rgb(255, 6, 6);
+    padding: 10px;
+    margin: 35px;
+    border: 2px solid rgb(38, 0, 255);
+    height: 200px;
+    box-sizing: border-box;
+}
+
+/* font Family changer CSs */
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+/* font family css */
+
+p {
+    font-family: "Kaushan Script", serif;
+    font-weight: 400;
+    font-style: normal;
+    /* text-decoration: underline; */
+    /* letter-spacing: 6px; */
+    line-height: 70px;
+    /* align-items: center;    */
+    /* align-items: left; */
+    /* align-items: right; */
+}
+
+/* text CAPITAL karna ke css */
+
+    /* text decoration or font width ke css */
+
+h1 {
+    /* text-transform: capitalize; */
+    /* text-transform:uppercase; */
+    /* text-transform: lowercase; */
+    text-decoration: wavy underline;
+    /* text-decoration-color: red; */
+    /* text-decoration-style: dashed; */
+    /* text-decoration-style: dotted; */
+    /* text-decoration-style: double; */
+    /* font-weight: normal; */
+    /* font-weight: bold; */
+    /* font-weight: bolder; */
+    /* font-weight: lighter; */
+    /* font-weight: 100; */
+    /* font-weight: 900; */
+
+}
+
+/* *{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}
+::selection {
+    color: rgb(3, 3, 3);
+    background: rgb(239, 185, 8);
+  } */
+
+    /* Border ke css */
+
+div {
+     height: 100px;
+    /* width: 100px;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: brown;
+    border-style: dashed;  */
+    /* border: 2px dashed black; */
+}
+
+/* ya bhe Radius ke css */
+
+#radius{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    /* border: 2px dashed black; */
+    border-radius: 15px;
+}
+
+    /* Border Readius ke Css */
+
+#radius1{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    /* border: 2px dashed black; */
+    border-radius: 15px;
+}
+
+/* Circle ke css */
+#circle{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    /* border: 2px dashed black; */
+    border-radius: 50%;
+}
+
+#id {
+    background-color: aqua;
+    display: inline-block;
+}
+.box12 {
+    background-color: Blue;
+    height: 100px;
+    width: 100px;
+}
+.box22 {
+    background-color: Green;
+    height: 100px;
+    width: 100px;
+    
+    /* display none karna sa koi bhe chez ho wo ap ka display sa calijati ha  */
+    
+    /* display: none; */
+
+    /* visibility hiddin kar nasa box to chala gaya ga lakin box ke jaga wahi pa ho ge  */
+
+    /* visibility: hidden; */
+}
+.box32 {
+    background-color: Red;
+    height: 100px;
+    width: 100px;
+}
+
+.bo {
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+.box11 {
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+#boxx{
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    display: inline-block;
+    border: 2px solid black;
+    font-size: 10px;
+}
+#box14 {
+    height: 100px;
+    /* width: 30%; */
+    background-color: yellow;
+    /* width: 2em; */
+    /* font-size: 2em; */
+    /* width: 5em; */
+}
+
+#div1{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+    position: static;
+}
+#div2{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+#div3{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+    position: absolute;
+    top: 3500px;
+}
+#div4{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+    position: fixed;
+    right: 10px;
+    /* top: 0px; */
+    bottom: 0;
+}
+#div5{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+    position: sticky;
+    top: 0;
+    
+}
+
+ /* image add karna ke css */
+
+#div6{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    background-image: url(./img/1.jpg);
+    background-size: cover;
+    display: inline-block;
+
+}
+#div7{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    background-image: url(./img/2.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+#div8{
+    height: 100px;  
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    background-image: url(./img/3.jpg);
+    background-size: cover;
+    display: inline-block;
+
+}
+#div9{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    background-image: url(./img/4.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+
+
+
+
+
+

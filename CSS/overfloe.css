@@ -1,0 +1,31 @@
+.box{
+    width: 30vw;
+    height: 30vh;
+    border: 4px solid black;
+
+    /* overflow scroll likha na sa agar ap ka content box sa bhar ja raha ha too scroll bar a jaya ga  */
+
+    overflow: scroll;
+
+    /* overflow auto karna sa agar ap ka content box sa bahi ga raha hoon ga to scroll bar agaya ga or agar box ka ander he ha content to scroll bar nahi aya ga  */
+
+    /* overflow: auto; */
+
+    /* overflow hidden karna sa agar ap ka content ya image box ka bhar ja raha hoon ga too wo bahir wala hidden hoo gaya ga or wo us box ma fixd aya ga  */
+
+    /* overflow: hidden; */
+
+    /* white space nowrap kar na sa ap ka content sara ek line ma ajata ha nitcha koi content nahi rha ta  */
+
+    /* white-space: nowrap; */
+
+    /* text overflow ellipsis karna sa ap ka text ka and ma dot dot a jata ha */
+
+    /* text-overflow: ellipsis ; */
+
+    /* overflow X ka matlab ha ka ap ka agar X axex ma jo bhe content hoon box sa bahit wo hidden ho gayaor overflow Y ka matlab ha ha ka agar y axex yani top to bottm ma koi text ho to wo us ko scroll bar dada  */
+
+    overflow-x: hidden;
+
+    overflow-y: scroll;
+}

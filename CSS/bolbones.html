@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            position: relative;
+            height: 500px;
+            width: 800px;
+            background-color: blue;
+            /* border: 2px solid black; */
+        }
+        .boll{
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            background-color: red;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            animation: animationX 3s linear infinite, animationY 1s ease-out infinite alternate;
+        }
+        @keyframes animationX {
+            from{
+                left: 0;
+            }
+            to{
+                left: 800px;
+            }
+        }
+        @keyframes animationY {
+            from{
+                bottom: 0;
+            }
+            to{
+                bottom: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="boll">
+
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,97 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 3px solid black;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    /* Transition property ka matlab ha ka transition kis kis element pa aply hoo */
+
+    /* transition-property: all; */
+
+    /* transition duration ka matlab haka transtion to hoo lakin kitne sec ya millisec tak wo transition chalya  */
+
+    /* transition-duration: 0.5s; */
+
+    /* Transition timing function ka matlab kha ka transtion ho likin kis style me hoo */
+
+    /* transition-timing-function: steps(3); */
+
+    /* Transtion delay ka matlab ha ka Transtion hoo lakin kitni dar mka bad hoo */
+
+    /* transition-delay: 2s; */
+
+    /* in charo ke short hand property ya ha ya in ko asa bhe likh sakta ha  "all" property "2s" duration "ease-in-out" timing function "1s" delay */ 
+
+    /* transition: all 2s ease-in-out 1s; */
+
+    /* Transfrom rotate ka matlab ha ka ap ka element kita rotate hoo  */
+
+    /* transform: rotate(45deg); */
+
+    /* ya short tare ka ha ha X Y ya Z axex ma rotate karna ka    */
+
+    /* rotate: X 45deg; */
+
+    /* rotate: Y 45deg; */
+
+    /* rotate: Z 45deg; */
+
+    /* scale 1 dana sa ap ka element ke height oe width wohi raha ge lakin scale 2 dana sa ap ka element ke height or width doublr ho gaya ge  */
+
+    /* transform: scale(2); */
+
+    /* transform: scaleX(2); */
+    /* transform: scaleY(2); */
+    /* transform: scaleZ(2); */
+
+    /* transfrom translate ka matlab ha ka ap ka element Kider move kara agar translate da diya do dono taraf sa move kara ga X and Y axex or agar alag alag karna ha to bas translate ka aga X ya Y lag jaya ga  */
+
+    /* transform: translate(20 , 50px); */
+    /* transform: translateX(20px); */
+    /* transform: translateY(20px); */
+
+    /* skue ka matlab haka ap ka element dono cono sa yani left top or right bottom corner sa kisi na pacar ka kitch liya hoo */
+
+    /* transform: skew(30deg); */
+
+
+    /* ya sari animation ka kam ate ha  */
+
+    /* animation-name: box;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; */
+   
+    /* in sab ko Short hand yani 1 line ma likh na ka tare ka ya a  */
+
+    animation: box 5s linear 1s infinite alternate;
+
+
+}
+
+
+@keyframes box {
+    from {
+        left: 0%;
+        background-color: yellow;
+    }
+    to {
+        left: 90%;
+        background-color: red;
+    }
+}
+
+
+
+/* div:hover {
+    background-color:bisque;
+    font-size: 18px;
+
+}
+div:active{
+    background-color: red;
+} */

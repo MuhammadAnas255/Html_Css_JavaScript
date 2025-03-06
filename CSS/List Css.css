@@ -1,0 +1,17 @@
+li {
+    /* list style none dana sa ap ka list ka aga jo dote hota ha wo hat jata ha */
+    list-style: none;
+    background-color: yellow;
+
+    /* list style postion lagana sa ya hota ha ka ap ka jo list ka dote hota ha wo content ka bhar hota haa to ya laga na sa content sa ander a jata ha ab is ko comment kar ka deckhlo list style postion ko */
+
+    /* list-style-position: inside; */
+
+    /* list style type sa emoji ata ha  */
+
+    list-style-type: "😁";
+
+    /* is tare ka sa ham list style ek ma bhe da sakta ha */
+
+    /* list-style: circle inside; */
+}

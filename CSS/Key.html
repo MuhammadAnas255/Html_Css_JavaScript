@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: aquamarine;
+            height: 40vh;
+            width: 50vw;
+        }
+
+        .box {
+            background-color: blueviolet;
+            height: 7vw;
+            width: 7vw;
+            position: relative;
+            top: 200px;
+            border-radius: 69%;
+
+            /* in sab property ke ek short hand property bhe ha  */
+
+            /* animation-name: box;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-out; */
+
+            /* ya short hand property ha  */
+            /* animation: name duration timing-function delay iteration-count direction ; */
+            animation: box 2s infinite ease-in alternate;
+        }
+        @keyframes box {
+            0%{
+
+            }
+            25%{
+                transform: translatey(0px);
+            }
+            50%{
+                transform: translatey(-100px) ;
+            }
+            75%{
+                transform: translateY(-100px)  translateX(150px) ;
+            }
+            100%{
+                transform: translateY(0) translateX(150px) ;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+.lorem {
+    border: 5px solid red;
+    width: 60px;
+    text-overflow: ellipsis;
+    top: 20%;
+    position: absolute;
+
+    /* text overlow hidden ka matlab ha ka agar ap ka text over flow box sa bhar nikal raha ha to kya kar na ha over flow hidder is kam ata ha ab caha wo ap ke image ho is ka bhe kam ata ha  */
+
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+h1 {
+    
+    /* text-align: center; */ 
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-decoration-thickness: 7px;
+    text-decoration-color: aqua;
+
+    /* text indent sa text ka side ma space ata ah  */
+
+    text-indent: 45px;
+
+}

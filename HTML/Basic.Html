@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table,List,Image,Video</title>
+
+</head>
+
+<body>
+    <!-- Table -->
+    <table>
+        <caption>Employee Details</caption>
+        <tr>
+            <td>Name</td>
+            <td>Designation</td>
+            <td>Fav Language</td>
+        </tr>
+
+        <tr>
+            <td>Anas</td>
+            <td>.Net</td>
+            <td>Html</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">Sam</td>
+            <td rowspan="2">Java</td>
+        </tr>
+    </table>
+
+    <!-- List -->
+    <ul>
+        <li>Html</li>
+        <li>Css</li>
+        <li>Js</li>
+    </ul>
+
+    <ul type="square">
+        <li>Html</li>
+        <li>Css</li>
+        <li>Js</li>
+    </ul>
+
+    <ol>
+        <li>Html</li>
+        <li>Css</li>
+        <li>Js</li>
+    </ol>
+
+    <ol type="A">
+        <li>Html</li>
+        <li>Css</li>
+        <li>Js</li>
+    </ol>
+
+    <ol type="a">
+        <li>Html</li>
+        <li>Css</li>
+        <li>Js</li>
+    </ol>
+
+    <ol type="I">
+        <li>Html</li>
+        <li>Css</li>
+        <li>Js</li>
+    </ol>
+
+    <ol type="i">
+        <li>Html</li>
+        <li>Css</li>
+        <li>Js</li>
+    </ol>
+
+    <!-- image -->
+    <img height="200" src="/im/download.jfif" alt="Flower">
+
+
+    <!-- Video -->
+    <video src="/im/video.mp4" height="200px" controls></video><br>
+
+    <!-- Video auto play -->
+
+    <video src="/im/video.mp4" height="200px" controls autoplay></video><br>
+
+    <!-- Video loop -->
+    <video src="/im/video.mp4" height="200px" controls loop></video><br>
+
+    <!-- video muted -->
+    <video src="/im/video.mp4" height="200px" controls muted></video><br>
+
+    <!-- video Poster Means Thumbnail -->
+    <video src="/im/video.mp4" height="200px" controls poster="/im/download.jfif"></video><br>
+
+    <!-- audio Play -->
+    <audio src="/im/video.mp4" controls></audio>
+
+    <!-- audio autoplay -->
+    <audio src="/im/video.mp4" controls autoplay></audio>
+
+    <!-- audio Loop -->
+    <audio src="/im/video.mp4" controls Loop></audio>
+
+    <!-- audio Muted -->
+    <audio src="/im/video.mp4" controls Muted></audio>
+
+    <!-- a link -->
+    <a href="https://www.google.com" target="_blank">Google</a><br>
+    <a href="https://www.Facebook.com" target="_blank">Facebook</a><br>
+    <a href="https://www.instagram.com" target="_blank">Instagram</a><br>
+    <a href="https://www.youtube.com" target="_blank">Youtube</a><br>
+    <a href="https://www.fiver.com" target="_blank">Fiver</a><br>
+
+    <!-- Heading -->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <!-- peragraf Tag -->
+    <p>This is ka peragraf Tag </p>
+
+    <!-- Pre Tag -->
+    <pre>This is a Pre Tag</pre>
+
+    <!-- Form  -->
+
+    <form action="Post">
+        <div>
+
+            <label for="username">Enter Your Username:</label>
+            <input type="text" name="Username" id="username" placeholder="Enter your Username">
+        </div>
+
+        <!-- Readio Selection -->
+        <div>
+
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+
+        <!-- Check box -->
+        <div>
+            <input type="checkbox" name="Subscribe" id="Subscribe" value="Subscribe">
+            <label for="Subscribe">Subscribe Now</label>
+        </div>
+        <div>
+            <label for="text">Enter Your text:</label>
+            <input type="text" name="text" id="text" placeholder="Enter the txet">
+        </div>
+
+
+        <!-- comment Tag -->
+        <div>
+            <label for="comment">Ener your Comment:</label>
+            <textarea id="comment" name="comment" rows="4" cols="50">
+            </textarea>
+        </div>
+
+
+        <!-- select Tag -->
+        <div>
+
+            <label for="fruits">Selecy the Fruits:</label>
+            <select name="Fruits" id="fruits">
+                <option value="Apple">Apple</option>
+                <option value="Banana">Banana</option>
+                <option value="Cherry">Cherry</option>
+            </select>
+        </div>
+
+        <!-- autofocus -->
+        <div>
+            <label for="text">Enter Your text:</label>
+            <input type="text" name="text" id="text" placeholder="Enter the txet" autofocus>
+        </div>
+
+        <div>
+            <label for="text">Enter Your text:</label>
+            <input required type="text" name="text" id="text" placeholder="Enter the txet">
+        </div>
+
+        <div>
+            <!-- This is Block Element -->
+            <p id="pp">This is a p Tag</p>
+            <!-- This is Inline Eliment -->
+            <a id="pp" href="https://google.com">Google</a>
+        </div>
+    </form>
+
+
+    <!-- Image Circle -->
+    <div>
+        <svg height="100" width="100">
+            <Circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+        </svg>
+    </div>
+
+    <!-- ifame website imbad -->
+    <div>
+        <iframe src="https://codewithharry.com" width="500" height="500 "></iframe>
+
+        <!-- Video imbad -->
+        <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/XZwBNDGuWGU?si=3C3A-ISzHKZulBvu&amp;start=793"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <!-- Subscript -->
+    <p>This<sub>is</sub>Subscript</p>
+
+    <!-- Supwescript -->
+    <p>This<sup>is</sup>superscript</p>
+
+
+    <!-- navigation bar -->
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contect Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HTML Entities -->
+
+    &lt;p&gt;&lt;/p&gt;
+
+    <!-- Copyright signe -->
+    This is a Footer &copy;
+
+    <!-- Multipul Space -->
+
+    Ths is a&nbsp;&nbsp;&nbsp;&nbsp;Website
+
+    <!-- Quotation Text Tag -->
+
+    <blockquote cite="source-url">
+        Quotation Text here....
+    </blockquote>
+
+    <!-- Code Prevew Desktop -->
+
+    <p><code>This is a Code <br>
+
+
+
+            &lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;My Bookmarks &lt;/h1&gt;
+    &lt;h2&gt;Primery BookMarks&lt;/h2&gt;
+    
+&lt;/html&gt;
+          </code></p>
+
+
+    <marquee behavior="" direction="right">This is a Website</marquee>
+
+    <big>This is a Big Tag</big>
+    <!-- hr this tag shoe is line  -->
+    <hr>
+    <small>This is a small Tag</small>
+
+
+    <main>
+        <!-- Section use hota ha alag alag section bana ka liya or issa SEO bhe better hote ha or ya sahi way ha  -->
+        <section>Eduation : NSTI (COE) | School (jwv)</section>  
+        <section>Experiences : Microsoft | DRDO Intern | Ms Intern</section>
+    </main>
+
+    <!-- ya a tag ka ander ham image lagaya ga taka koi image per click kara do link open ho gaya -->
+    <a href="https://google.com"><img src="/im/download.jfif" alt="Flower image"></a>
+</body>
+
+</html>
